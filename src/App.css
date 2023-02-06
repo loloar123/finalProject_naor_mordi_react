@@ -1,0 +1,18 @@
+/* global css */
+header {
+    background: rgb(65, 65, 65);
+    color: white;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul a {
+    padding: 0 8px;
+    text-decoration: none;
+    color: white;
+}
