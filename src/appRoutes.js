@@ -6,6 +6,7 @@ import Gallery from './components/gallery'
 import Products from './components/products'
 import Events from './components/events'
 import Login from './components/login'
+import SignUp from './components/signUp'
 
 
 export default function AppRoutes() {
@@ -18,6 +19,7 @@ export default function AppRoutes() {
                 <Route path="/products" element={<Products />} />
                 <Route path="/events" element={<Events />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<SignUp />} />
             </Routes>
         </BrowserRouter>
     )
